@@ -13,6 +13,6 @@ def app():
     st.markdown('''Passionate Engineer and Rational Thinker. Data Scientist, Web Developer''')
     image = Image.open('./images/icon.jpg')
     st.image(image)
-    # st.markdown('''### Linkedin: [Mainak](https://www.linkedin.com/in/mainak-chaudhuri-127898176/)''')
+    
     st.markdown('''### GitHub: [Group 24](https://github.com/IT21365232/Traffic-Prediction-project.git)''')
     
