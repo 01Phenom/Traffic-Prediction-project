@@ -13,8 +13,8 @@ def load_data():
     """This function returns the preprocessed data"""
 
     # Load the Diabetes dataset into DataFrame.
-    df = pd.read_csv('C:/Users/Binuda Dewhan/Desktop/Diabetes-Prediction-System-master/preprocessed_traffic_dataset.csv')
-    data1 = pd.read_csv('C:/Users/Binuda Dewhan/Desktop/Traffic_Prediction-main/mp/traffic_volume_data.csv')
+    df = pd.read_csv('./preprocessed_traffic_dataset.csv')
+    data1 = pd.read_csv('./traffic_volume_data.csv')
 
     # Perform feature and target split
     X = df[['is_holiday', 'temperature','weekday', 'hour', 'month_day', 'year', 'month','weather_type','weather_description']]
