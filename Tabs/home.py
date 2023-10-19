@@ -8,7 +8,7 @@ def app():
     """This function create the home page"""
     
     # Add title to the home page
-    image = Image.open('C:/Users/Binuda Dewhan/Desktop/home.jpeg')
+    image = Image.open('./images/home.jpeg')
     st.title(":blue[Traffic Prediction] System")
 
     # Add image to the home page
