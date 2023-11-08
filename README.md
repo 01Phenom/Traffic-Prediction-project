@@ -1,6 +1,6 @@
 # Traffic Prediction Application
 
-![Traffic Prediction](https://traffic-prediction-project.streamlit.app)
+(https://traffic-prediction-project.streamlit.app)
 
 ## Overview
 
