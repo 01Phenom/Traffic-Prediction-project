@@ -9,6 +9,20 @@ from web_functions import predict
 #     prediction = 42  # Replace this with your actual prediction logic
 #     score = 0.8  # Replace this with your actual model score
 #     return prediction, score
+def predict(X, y, features):
+    prediction, score = predict(X, y, features)
+        # score = score + 0.20 #correction factor
+        # st.info("Predicted Sucessfully")
+
+        
+    if(prediction<=1000):
+        st.success("No Traffic on this day",icon="✅")
+    if(prediction>1000 and prediction<=3000):
+        st.error("Busy or Normal Traffic",icon="🚨")
+    if(prediction>3000 and prediction<=5000):
+        st.error("heavy Traffic",icon="🚨")
+    if(prediction>5000):
+        st.warning("Do not go! Extreme Traffic",icon="🚨")
 
 
 def holiday_to_number(status):
