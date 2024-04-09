@@ -5,12 +5,7 @@ import streamlit as st
 import random
 # Import necessary functions from web_functions
 #from images.web_functions import predict
-def predict(X, y, features):
-    # Your prediction logic here
-    options = ['high', 'low', 'medium']
-    prediction = random.choice(options)
-    score = 0.8  # Replace this with your actual model score
-    return prediction, score
+
 """This module contains necessary function needed"""
 
 
@@ -44,7 +39,12 @@ def day_name_to_number(day_name):
     else:
         return None
 
-
+def predict(X, y, features):
+    # Your prediction logic here
+    options = ['high', 'low', 'medium']
+    prediction = random.choice(options)
+    score = 0.8  # Replace this with your actual model score
+    return prediction, score
 def Weather_type_to_number(weather_type):
     """Converts weather type to number"""
     # Define a dictionary to map weather types to numbers
