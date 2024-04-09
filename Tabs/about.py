@@ -10,7 +10,7 @@ def app():
     st.snow()
     st.title('Data Mining Project')
     
-    st.markdown(''' Data Scientist Project''')
+    st.markdown(''' Data Science Project: iTraffic Harmony''')
     image = Image.open('./images/icon.jpg')
     st.image(image)
     
