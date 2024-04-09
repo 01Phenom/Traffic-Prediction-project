@@ -3,7 +3,7 @@
 # Import necessary modules
 import streamlit as st
 # Import necessary functions from web_functions
-from images/web_functions.py import predict
+from /images/web_functions.py import predict
 # def predict(X, y, features):
 #     # Your prediction logic here
 #     prediction = 42  # Replace this with your actual prediction logic
