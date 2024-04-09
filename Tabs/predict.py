@@ -4,11 +4,14 @@
 import streamlit as st
 # Import necessary functions from web_functions
 #from images.web_functions import predict
-# def predict(X, y, features):
-#     # Your prediction logic here
-#     prediction = 42  # Replace this with your actual prediction logic
-#     score = 0.8  # Replace this with your actual model score
-#     return prediction, score
+def predict(X, y, features):
+    # Your prediction logic here
+    if is_holiday:
+        prediction = "High"  # Replace this with your actual prediction logic
+    else:
+        prediction = "Low"
+    score = 0.8  # Replace this with your actual model score
+    return prediction, score
 """This module contains necessary function needed"""
 
 # Import necessary modules
