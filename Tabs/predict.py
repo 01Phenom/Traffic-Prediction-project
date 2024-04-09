@@ -2,14 +2,13 @@
 
 # Import necessary modules
 import streamlit as st
+import random
 # Import necessary functions from web_functions
 #from images.web_functions import predict
 def predict(X, y, features):
     # Your prediction logic here
-    if holiday_to_number():
-        prediction = "High"  # Replace this with your actual prediction logic
-    else:
-        prediction = "Low"
+    options = ['high', 'low', 'medium']
+    prediction = random.choice(options)
     score = 0.8  # Replace this with your actual model score
     return prediction, score
 """This module contains necessary function needed"""
