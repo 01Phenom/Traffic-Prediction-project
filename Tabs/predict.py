@@ -193,12 +193,12 @@ def app(df, X, y, data1):
     if st.button("Predict"):
         # Get prediction and model score
         prediction, score = predict(X, y, features)
-        if(prediction<=1000):
-            st.success("No Traffic on this day",icon="✅")
-        if(prediction>1000 and prediction<=3000):
-            st.error("Busy or Normal Traffic",icon="🚨")
-        if(prediction>3000 and prediction<=5000):
-            st.error("heavy Traffic",icon="🚨")
-        if(prediction>5000):
-            st.warning("Do not go! Extreme Traffic",icon="🚨")
+        # if(prediction<=1000):
+        #     st.success("No Traffic on this day",icon="✅")
+        # if(prediction>1000 and prediction<=3000):
+        #     st.error("Busy or Normal Traffic",icon="🚨")
+        # if(prediction>3000 and prediction<=5000):
+        #     st.error("heavy Traffic",icon="🚨")
+        # if(prediction>5000):
+        #     st.warning("Do not go! Extreme Traffic",icon="🚨")
         st.write(prediction)
