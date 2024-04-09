@@ -4,11 +4,11 @@
 import streamlit as st
 # Import necessary functions from web_functions
 from web_functions import predict
-def predict(X, y, features):
-    # Your prediction logic here
-    prediction = 42  # Replace this with your actual prediction logic
-    score = 0.8  # Replace this with your actual model score
-    return prediction, score
+# def predict(X, y, features):
+#     # Your prediction logic here
+#     prediction = 42  # Replace this with your actual prediction logic
+#     score = 0.8  # Replace this with your actual model score
+#     return prediction, score
 
 
 def holiday_to_number(status):
