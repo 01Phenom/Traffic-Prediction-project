@@ -6,7 +6,7 @@ import streamlit as st
 #from images.web_functions import predict
 def predict(X, y, features):
     # Your prediction logic here
-    if is_holiday:
+    if holiday_to_number():
         prediction = "High"  # Replace this with your actual prediction logic
     else:
         prediction = "Low"
