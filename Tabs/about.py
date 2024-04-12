@@ -8,9 +8,9 @@ from PIL import Image
 def app():
     """This function creates the about page"""
     st.snow()
-    st.title('Data Mining Project')
+    st.title('Design Thinkin and Innovation')
     
-    st.markdown(''' Data Science Project: iTraffic Harmony''')
+    st.markdown('''iTraffic Harmony''')
     image = Image.open('./images/icon.jpg')
     st.image(image)
     
