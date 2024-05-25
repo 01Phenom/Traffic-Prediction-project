@@ -23,7 +23,7 @@ Tabs = {
     "***Data Info***": data,
     "***Visualisation***": visualise,
     "***Prediction***": predict,
-    "***About Us***": about
+    
 }
 
 # Create a sidebar
