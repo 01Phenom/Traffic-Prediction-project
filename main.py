@@ -1,5 +1,10 @@
+import streamlit as st
+
+# Import necessary functions from web_functions
+from web_functions import load_data
+
 # Import pages
-from Tabs import home, data, predict, visualise, oscia3, about
+from Tabs import home, data, predict, visualise,about
 
 # Configure the app
 st.set_page_config(
