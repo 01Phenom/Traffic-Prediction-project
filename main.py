@@ -21,6 +21,7 @@ Tabs = {
     "***Visualisation***": visualise,
     "***Prediction***": predict,
     "***Traffic signal Simulation***": oscia3,
+    "***About Us***": about,
 }
 
 # Create a sidebar
