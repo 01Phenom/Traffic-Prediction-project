@@ -38,5 +38,7 @@ if page in ["***Prediction***", "***Visualisation***"]:
     Tabs[page].app(df, X, y, data1)
 elif page == "***Data Info***":
     Tabs[page].app(df)
+elif page == "***About***":
+    Tabs[page].app()  # No arguments needed for the About page
 else:
     Tabs[page].app()
