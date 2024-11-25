@@ -4,7 +4,7 @@ import streamlit as st
 from web_functions import load_data
 
 # Import pages
-from Tabs import home, data, predict, visualise,about, oscia3
+from Tabs import home, data, predict, visualise, oscia3
 
 # Configure the app
 st.set_page_config(
@@ -21,7 +21,6 @@ Tabs = {
     "***Visualisation***": visualise,
     "***Prediction***": predict,
     "***Traffic signal Simulation***": oscia3,
-    "***About***": about,
 }
 
 # Create a sidebar
